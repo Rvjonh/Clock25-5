@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Digital;
+    src: url('./DS-DIGI.TTF');
+}
+
+.body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-family: Digital;
+    font-size: 32px;
+    
+    .finishing-main{
+        animation-name: show-finishing;
+        animation-duration: 2s;
+        animation-direction: linear;
+        animation-iteration-count: infinite;
+    }
+    @keyframes show-finishing {
+        0%{
+            outline: none;
+            background-color: transparent;
+        }
+        25%{
+            outline: .2em solid rgb(250, 130, 130);
+            background-color: rgb(250, 130, 130);
+        }
+    }
+
+    .main{
+        width: 100%;
+        max-width: 400px;
+        padding: .1em;
+        border: .2em solid rgb(0, 0, 0);
+        transition: .25s ease all;
+        background-color: rgb(255, 255, 255);
+
+        margin-top: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        .title{
+            text-align: center;
+            font-size: 2em;
+            margin: 0.3em;
+        }
+
+        .containers{
+            display: flex;
+            margin-bottom: .1em;
+
+            .braek-container{
+                text-align: center;
+                border-right: 0.2em solid rgb(255, 0, 0);
+                margin-right: 0.1em;
+            }
+            .session-container{
+                text-align: center;
+                border-left: 0.2em solid rgb(0, 89, 255);
+            }
+            .button-options{
+                cursor: pointer;
+                background-color: transparent;
+                border: none;
+                outline: none;
+                img{
+                    width: 2em;
+                    height: 2em;
+                    object-fit: fill;
+                }
+            }
+        }
+
+        .clock{
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+
+            .time-type{
+                width: 30%;
+                text-align: center;
+                color: rgb(255, 255, 255);
+            }
+            .time-left{
+                width: 70%;
+                color: rgb(255, 255, 255);
+                font-size: 7rem;
+            }
+            .finishing{
+                color: red;
+            }
+        }
+
+        .clock-controls{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            margin-top: .7em;
+
+            .button-controls{
+                cursor: pointer;
+                background-color: transparent;
+                border: none;
+                outline: none;
+                img{
+                    width: 4em;
+                    height: 4em;
+                    object-fit: fill;
+                }
+            }
+        }
+
+    }
+}
+
+.contact{
+    a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(0, 157, 255);
+
+        .small-img{
+            margin-left: 0.2em;
+            width: 2em;
+            height: 2em;
+            object-fit: cover;
+        }
+    }
+}

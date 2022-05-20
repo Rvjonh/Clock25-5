@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.509449e2.css",
+    "main.js": "/static/js/main.d06e2016.js",
+    "static/js/377.05cbee00.chunk.js": "/static/js/377.05cbee00.chunk.js",
+    "static/media/alarm-beep.mp3": "/static/media/alarm-beep.f5592dc381cec593398d.mp3",
+    "service-worker.js": "/service-worker.js",
+    "static/media/DS-DIGI.TTF": "/static/media/DS-DIGI.0ef0e2249326c34137c8.TTF",
+    "static/media/logho.png": "/static/media/logho.112d93100806a70e5d28.png",
+    "index.html": "/index.html",
+    "main.509449e2.css.map": "/static/css/main.509449e2.css.map",
+    "main.d06e2016.js.map": "/static/js/main.d06e2016.js.map",
+    "377.05cbee00.chunk.js.map": "/static/js/377.05cbee00.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.509449e2.css",
+    "static/js/main.d06e2016.js"
+  ]
+}
