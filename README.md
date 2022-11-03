@@ -1,6 +1,6 @@
 # Simple Pomodoro Clock for FreeCodeCamp Curriculum
 
-You can check it out here in this link: (Live code app)[https://rvjonh-pomodoro-clock.netlify.app/]
+You can check it out here in this link: [Live App Link](https://rvjonh-pomodoro-clock.netlify.app/)
 
 # Use and explanaition
 
